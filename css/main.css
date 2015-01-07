@@ -2,6 +2,9 @@ h1, h2, p, ul, ol {
   margin: 0 auto;
   max-width: 600px;
 }
+body {
+  margin: 16px 16px 144px;
+}
 a {
   color: #05c !important;
   text-decoration: none;
