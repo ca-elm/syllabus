@@ -19,7 +19,7 @@ layout: default
 - [Function Composition](https://ca-elm.github.io/book/#elm-basics-function-composition)
 - [Precedence](https://ca-elm.github.io/book/#elm-basics-precedence)
 
-Homework: [Exercises 1–5](https://ca-elm.github.io/book/#elm-basics-exercises). Submit answers <a href="https://www.schoology.com/assignment/217256152/info" target="_top">via Schoology</a>.
+Homework: [Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5. Submit answers <a href="https://www.schoology.com/assignment/217256152/info" target="_top">via Schoology</a>.
 
 # Higher-Order Functions
 
@@ -32,7 +32,7 @@ Homework: [Exercises 1–5](https://ca-elm.github.io/book/#elm-basics-exercises)
 - [Flip](https://ca-elm.github.io/book/#higher-order-functions-flip)
 - [Aside: Creating Functions](https://ca-elm.github.io/book/#higher-order-functions-aside-creating-functions)
 
-Homework: [Exercises 1–4](https://ca-elm.github.io/book/#higher-order-functions-exercises). Submit answers via Schoology.
+Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4. Submit answers via Schoology.
 
 ## 2015-01-14: Wednesday
 
@@ -44,4 +44,4 @@ Homework: [Exercises 1–4](https://ca-elm.github.io/book/#higher-order-function
 - [More List Functions](https://ca-elm.github.io/book/#higher-order-functions-more-list-functions)
 - [Application as an Operator](https://ca-elm.github.io/book/#higher-order-functions-application-as-an-operator)
 
-Homework: [Exercises 5–8](https://ca-elm.github.io/book/#higher-order-functions-exercises). Submit answers via Schoology.
+Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 5–8. Submit answers via Schoology.
