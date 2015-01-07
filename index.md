@@ -40,6 +40,7 @@ Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exer
 
 - Review Homework
 - [Lists of Things](https://ca-elm.github.io/book/#higher-order-functions-lists-of-things)
+- [Working with Lists](https://ca-elm.github.io/book/#higher-order-functions-working-with-lists)
 - [Map, 2, 3, 4](https://ca-elm.github.io/book/#higher-order-functions-map-2-3-4)
 - [Fold (from the Left)](https://ca-elm.github.io/book/#higher-order-functions-fold-from-the-left-)
 - [Filtering Lists](https://ca-elm.github.io/book/#higher-order-functions-filtering-lists)
