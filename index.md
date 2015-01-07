@@ -5,6 +5,8 @@ layout: default
 
 # Elm Basics
 
+Homework is due the next class period unless otherwise noted.
+
 ## 2015-01-07: Wednesday
 
 - Introduction to the Course
