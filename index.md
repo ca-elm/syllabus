@@ -12,7 +12,7 @@ Homework is due the next class period unless otherwise noted.
 - Introduction to the Course
 - [A Greeting](https://ca-elm.github.io/book/#elm-basics-a-greeting)
 - [Import Declarations](https://ca-elm.github.io/book/#elm-basics-import-declarations)
-- [Top-level Declarations](https://ca-elm.github.io/book/#elm-basics-top-level-declarations)
+- [Top-level Declarations and Main](https://ca-elm.github.io/book/#elm-basics-top-level-declarations-and-main)
 - [Strings and Functions](https://ca-elm.github.io/book/#elm-basics-strings-and-functions)
 - [Types and Type Annotations](https://ca-elm.github.io/book/#elm-basics-types-and-type-annotations)
 - [Type Errors](https://ca-elm.github.io/book/#elm-basics-type-errors)
