@@ -49,3 +49,5 @@ Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exer
 - [Application as an Operator](https://ca-elm.github.io/book/#higher-order-functions-application-as-an-operator)
 
 Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 5–8. Submit answers via Schoology.
+
+<div class="container"><p class="progress"></p></div>
