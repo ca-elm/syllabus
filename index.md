@@ -41,7 +41,7 @@ Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exer
 - Review Homework
 - [Lists of Things](https://ca-elm.github.io/book/#higher-order-functions-lists-of-things)
 - [Map, 2, 3, 4](https://ca-elm.github.io/book/#higher-order-functions-map-2-3-4)
-- [Fold (from the Left)](https://ca-elm.github.io/book/#higher-order-functions-fold-from-the-left)
+- [Fold (from the Left)](https://ca-elm.github.io/book/#higher-order-functions-fold-from-the-left-)
 - [Filtering Lists](https://ca-elm.github.io/book/#higher-order-functions-filtering-lists)
 - [More List Functions](https://ca-elm.github.io/book/#higher-order-functions-more-list-functions)
 - [Application as an Operator](https://ca-elm.github.io/book/#higher-order-functions-application-as-an-operator)
