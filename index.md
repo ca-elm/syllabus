@@ -34,6 +34,7 @@ Homework: [Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5
 - [Composition Decomposition](https://ca-elm.github.io/book/#higher-order-functions-composition-decomposition)
 - [Flip](https://ca-elm.github.io/book/#higher-order-functions-flip)
 - [Aside: Creating Functions](https://ca-elm.github.io/book/#higher-order-functions-aside-creating-functions)
+- [Application as an Operator](https://ca-elm.github.io/book/#higher-order-functions-application-as-an-operator)
 
 Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4. Submit answers via Schoology.
 
@@ -43,10 +44,9 @@ Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exer
 - [Lists of Things](https://ca-elm.github.io/book/#higher-order-functions-lists-of-things)
 - [Working with Lists](https://ca-elm.github.io/book/#higher-order-functions-working-with-lists)
 - [Map, 2, 3, 4](https://ca-elm.github.io/book/#higher-order-functions-map-2-3-4)
-- [Fold (from the Left)](https://ca-elm.github.io/book/#higher-order-functions-fold-from-the-left-)
+- [Fold (from the Right)](https://ca-elm.github.io/book/#higher-order-functions-fold-from-the-right-)
 - [Filtering Lists](https://ca-elm.github.io/book/#higher-order-functions-filtering-lists)
 - [More List Functions](https://ca-elm.github.io/book/#higher-order-functions-more-list-functions)
-- [Application as an Operator](https://ca-elm.github.io/book/#higher-order-functions-application-as-an-operator)
 
 Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 5–8. Submit answers via Schoology.
 
