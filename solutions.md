@@ -32,7 +32,7 @@ layout: default
     epsilon = toString >> Text.plainText
     ```
 
-1. Write a program to calculate and display the average of the numbers 4, 9, 16, and 25. Try this first without using the `asText` function from the [Function Composition](#elm-basics-function-composition) section, and then modify your program to use `asText`. Which program do you think is easier to understand?
+1. Write a program to calculate and display the average of the numbers 4, 9, 16, and 25. Try this first without using the `asText` function from the [Function Composition](https://ca-elm.github.io/book/#elm-basics-function-composition) section, and then modify your program to use `asText`. Which program do you think is easier to understand?
 
     ```
     import Text
