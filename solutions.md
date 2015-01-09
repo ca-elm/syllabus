@@ -15,11 +15,22 @@ layout: default
 
 1. Write type annotations for the following declarations:
 
-  1. `alpha : String`
-  1. `beta : number -> String`
-  1. `gamma : String -> Element`
-  1. `delta : String`
-  1. `epsilon : number -> Element`
+    ```
+    alpha : String
+    alpha = "Hello!"
+
+    beta : number -> String
+    beta = toString
+
+    gamma : String -> Element
+    gamma = Text.plainText
+
+    delta : String
+    delta = toString 5
+
+    epsilon : number -> Element
+    epsilon = toString >> Text.plainText
+    ```
 
 1. Write a program to calculate and display the average of the numbers 4, 9, 16, and 25. Try this first without using the `asText` function from the [Function Composition](#elm-basics-function-composition) section, and then modify your program to use `asText`. Which program do you think is easier to understand?
 
