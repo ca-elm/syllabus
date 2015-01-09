@@ -22,7 +22,7 @@ Homework is due the next class period unless otherwise noted.
 - [Function Composition](https://ca-elm.github.io/book/#elm-basics-function-composition)
 - [Precedence](https://ca-elm.github.io/book/#elm-basics-precedence)
 
-Homework: [Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5. Submit answers <a href="https://www.schoology.com/assignment/217256152/info" target="_top">via Schoology</a>.
+Homework: [Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5. Submit answers <a href=https://www.schoology.com/assignment/217256152/info target=_top>via Schoology</a>.
 
 Solutions are available [here](solutions.html).
 
@@ -37,7 +37,7 @@ Solutions are available [here](solutions.html).
 - [Flip](https://ca-elm.github.io/book/#higher-order-functions-flip)
 - [Aside: Creating Functions](https://ca-elm.github.io/book/#higher-order-functions-aside-creating-functions)
 
-Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4, excluding 3e and 4e. Submit answers via Schoology.
+Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4, excluding 3e and 4e. Submit answers <a href=https://www.schoology.com/assignment/219060742/info target=_top>via Schoology</a>.
 
 ## 2015-01-14: Wednesday
 
