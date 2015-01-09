@@ -3,7 +3,7 @@ title: Solutions
 layout: default
 ---
 
-# Elm Basics
+<h1 id=elm-basics>Elm Basics</h1>
 
 1. Delete everything you have in the online editor. Write a program from scratch to show the text "Hello again!" in the space on the right side of the screen. Make sure you understand how each part of your program works--if you find yourself looking back at the example code, re-read the relevant section and start over.
 

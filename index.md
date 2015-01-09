@@ -24,7 +24,7 @@ Homework is due the next class period unless otherwise noted.
 
 Homework: [Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5. Submit answers <a href=https://www.schoology.com/assignment/217256152/info target=_top>via Schoology</a>.
 
-Solutions are available [here](solutions.html).
+Solutions are available [here](solutions.html#elm-basics).
 
 # Higher-Order Functions
 
