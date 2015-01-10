@@ -1,13 +1,12 @@
----
-title: Syllabus
-layout: default
----
+module Chapter.Schedule where
 
-# Elm Basics
+data =
+  { title = "Schedule"
+  , content = """
 
 Homework is due the next class period unless otherwise noted.
 
-## 2015-01-07: Wednesday
+# 2015-01-07: Wednesday
 
 - Introduction to the Course
 - [A Greeting](https://ca-elm.github.io/book/#elm-basics-a-greeting)
@@ -24,11 +23,9 @@ Homework is due the next class period unless otherwise noted.
 
 Homework: [Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5. Submit answers <a href=https://www.schoology.com/assignment/217256152/info target=_top>via Schoology</a>.
 
-Solutions are available [here](solutions.html#elm-basics).
+Solutions are available [here](#solutions-elm-basics).
 
-# Higher-Order Functions
-
-## 2015-01-09: Friday
+# 2015-01-09: Friday
 
 - Review Homework
 - [Currying](https://ca-elm.github.io/book/#higher-order-functions-currying)
@@ -39,7 +36,7 @@ Solutions are available [here](solutions.html#elm-basics).
 
 Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4, excluding 3e and 4e. Submit answers <a href=https://www.schoology.com/assignment/219060742/info target=_top>via Schoology</a>.
 
-## 2015-01-14: Wednesday
+# 2015-01-14: Wednesday
 
 - Review Homework
 - [Application as an Operator](https://ca-elm.github.io/book/#higher-order-functions-application-as-an-operator)
@@ -53,3 +50,6 @@ Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exer
 Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, and 5–8. Submit answers via Schoology.
 
 <div class="container"><p class="progress"></p></div>
+
+"""
+  }
