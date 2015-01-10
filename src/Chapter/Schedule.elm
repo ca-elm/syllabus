@@ -21,9 +21,9 @@ Homework is due the next class period unless otherwise noted.
 - [Function Composition](https://ca-elm.github.io/book/#elm-basics-function-composition)
 - [Precedence](https://ca-elm.github.io/book/#elm-basics-precedence)
 
-Homework: [Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5. Submit answers <a href=https://www.schoology.com/assignment/217256152/info target=_top>via Schoology</a>.
+Homework: [Chapter 1 Exercises](https://ca-elm.github.io/book/#elm-basics-exercises) 1–5. Submit answers <a href=https://www.schoology.com/assignment/217256152/info target=_top>via Schoology</a>.
 
-Solutions are available [here](#solutions-elm-basics).
+Solutions are available [below](#solutions-elm-basics).
 
 # 2015-01-09: Friday
 
@@ -34,7 +34,7 @@ Solutions are available [here](#solutions-elm-basics).
 - [Flip](https://ca-elm.github.io/book/#higher-order-functions-flip)
 - [Aside: Creating Functions](https://ca-elm.github.io/book/#higher-order-functions-aside-creating-functions)
 
-Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4, excluding 3e and 4e. Submit answers <a href=https://www.schoology.com/assignment/219060742/info target=_top>via Schoology</a>.
+Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4, excluding 3e and 4e. Submit answers <a href=https://www.schoology.com/assignment/219060742/info target=_top>via Schoology</a>.
 
 # 2015-01-14: Wednesday
 
@@ -47,7 +47,7 @@ Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exer
 - [Filtering Lists](https://ca-elm.github.io/book/#higher-order-functions-filtering-lists)
 - [More List Functions](https://ca-elm.github.io/book/#higher-order-functions-more-list-functions)
 
-Homework: [Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, and 5–8. Submit answers via Schoology.
+Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, and 5–8. Submit answers via Schoology.
 
 <div class="container"><p class="progress"></p></div>
 
