@@ -47,7 +47,7 @@ Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-func
 - [Filtering Lists](https://ca-elm.github.io/book/#higher-order-functions-filtering-lists)
 - [More List Functions](https://ca-elm.github.io/book/#higher-order-functions-more-list-functions)
 
-Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, 5–7, and 9. Submit answers via Schoology.
+Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, 5–7, and 9. Submit answers <a href=https://www.schoology.com/assignment/221224914/info target=_top>via Schoology</a>.
 
 <div class="container"><p class="progress"></p></div>
 
