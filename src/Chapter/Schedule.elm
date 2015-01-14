@@ -44,10 +44,17 @@ Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-func
 - [Working with Lists](https://ca-elm.github.io/book/#higher-order-functions-working-with-lists)
 - [Map, 2, 3, 4](https://ca-elm.github.io/book/#higher-order-functions-map-2-3-4)
 - [Fold (from the Right)](https://ca-elm.github.io/book/#higher-order-functions-fold-from-the-right-)
+
+Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, 5–7, and 9. Submit answers <a href=https://www.schoology.com/assignment/221224914/info target=_top>via Schoology</a>.
+
+# 2015-01-16: Friday
+
+- Review Homework
+- More on Map and Fold
 - [Filtering Lists](https://ca-elm.github.io/book/#higher-order-functions-filtering-lists)
 - [More List Functions](https://ca-elm.github.io/book/#higher-order-functions-more-list-functions)
 
-Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, 5–7, and 9. Submit answers <a href=https://www.schoology.com/assignment/221224914/info target=_top>via Schoology</a>.
+Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 8 and 10-12. Submit answers <a target=_top>via Schoology</a>.
 
 <div class="container"><p class="progress"></p></div>
 
