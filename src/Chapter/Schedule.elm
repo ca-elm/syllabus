@@ -45,7 +45,7 @@ Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-func
 - [Map, 2, 3, 4](https://ca-elm.github.io/book/#higher-order-functions-map-2-3-4)
 - [Fold (from the Right)](https://ca-elm.github.io/book/#higher-order-functions-fold-from-the-right-)
 
-Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, 5–7, and 9. Submit answers <a href=https://www.schoology.com/assignment/221224914/info target=_top>via Schoology</a>.
+Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, 5–7 (except 7c), and 9. Submit answers <a href=https://www.schoology.com/assignment/221224914/info target=_top>via Schoology</a>.
 
 # 2015-01-16: Friday
 
