@@ -5,5 +5,8 @@
 			"follow_symlinks": true,
 			"path": "."
 		}
-	]
+	],
+  "settings": {
+    "writer_smart_quotes": false
+  }
 }

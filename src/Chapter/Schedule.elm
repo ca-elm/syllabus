@@ -54,6 +54,26 @@ Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-func
 
 Homework: No new homework. Catch up on old assignments and enjoy your weekend.
 
+# 2015-01-21: Wednesday
+
+- Abstraction
+- Lambda notation
+- Parametric polymorphism
+
+Homework:
+
+1. Write the following functions using lambda notation, and then write a type annotation for the expression:
+
+  1. `square`, which takes a Float $x$ as input and returns $x^2$. For example, `square 5` would give you `25`.
+  1. `parenthesize`, which takes a String and wraps it in parentheses. For example, `parenthesize "an aside"` would return `"(an aside)"`.
+  1. `sumSquares`, which takes two Floats $x$ and $y$ and returns the sum of their squares, i.e., $x^2 + y^2$. For example, `sumSquares 3 4` would yield `25`.
+
+1. Use lambda notation and `List.foldr1` to make a function `join` which concatenates the items in a list with commas. For example, `join ["one", "two", "three"]` would return `"one, two, three"`.
+
+1. Using lambda notation, `List.foldr`, `List.map`, and the `[1..n]` syntax (which creates the list `[1, 2, 3, ..., n]`), write a function `repeat` which acts like `String.repeat`: it takes a number and string and repeats the string that many times. For example, `repeat 3 "a"` would return `"aaa"`.
+    
+  <p class=note>`repeat 0 "a"` should return the empty string `""`.
+
 <div class="container"><p class="progress"></p></div>
 
 """
