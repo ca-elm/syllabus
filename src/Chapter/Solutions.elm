@@ -81,6 +81,69 @@ Solutions to previous homework exercises.
   main = Text.plainText (toString (fourthRoot 16))
   ```
 
+# Higher-order Functions
+
+1. Explain the difference between the expressions `String.repeat`, `String.repeat 5`, and `String.repeat 5 "Hello!"`. Give the type of each expression.
+
+  - `String.repeat : number -> String -> String` is a function which accepts a number and a String and repeats the String the given number of times.
+  - `String.repeat 5 : String -> String` is a function which accepts a String as input and repeats it five times.
+  - `String.repeat 5 "Hello!" : String` is a String with the characters `Hello!Hello!Hello!Hello!Hello!`
+
+1. The `max` function has a type of `number -> number -> number` and returns the larger of its two inputs; similarly, `min` returns the smaller of its two inputs. Use these two functions to define:
+
+  ```elm
+  clamp : number -> number -> number -> number
+  ```
+
+  Where `clamp low high x` outputs the number between `low` and `high` (inclusive) which is closest to `x`; that is, `clamp low high x` outputs `low` if `x` is less than `low`, `high` if `x` is greater than `high`, and `x` otherwise.
+
+  Use partial application and function composition to define clamp in terms of its first two inputs (`clamp low high = ...`).
+
+  ```elm
+  clamp : number -> number -> number -> number
+  clamp l h = max l >> min h
+  ```
+
+1. Explain in words what each of the following functions do. Also give the type of each function.
+
+  1. `String.repeat 5 >> String.repeat 3`
+
+    Takes a String as input and repeats it 15 times. `String -> String`
+
+  1. `flip String.repeat "Hello" >> String.repeat 2`
+
+    Takes a number and repeats `Hello` twice that many times. `Int -> String`
+
+  1. `min 4 >> flip String.repeat "A"`
+
+    Takes a number and repeats `A` that many times, but no more than 4 times. `Int -> String`
+
+  1. `(-) 4`
+
+    Takes a number $x$ and outputs $4 - x$. `number -> number`
+
+  1. `((-) >> (<|)) 4`
+
+    Takes a number $x$ and outputs $4 - x$. `number -> number`
+
+1. Write type annotations for the following type declarations:
+
+  ```elm
+  alpha : number -> number
+  alpha = max 4
+
+  beta : Int -> String -> String
+  beta = String.repeat << (+) 4
+
+  gamma : (Float -> a) -> (a -> b) -> Float -> b
+  gamma = (>>) sqrt >> (>>)
+
+  delta : (a -> b -> c) -> a -> b -> c
+  delta = flip >> flip
+
+  epsilon : (String -> a) -> ((b -> a) -> c) -> c
+  epsilon = (>>) toString >> (|>)
+  ```
 
 """
   }
