@@ -50,11 +50,9 @@ Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-func
 # 2015-01-16: Friday
 
 - Review Homework
-- More on Map and Fold
-- [Filtering Lists](https://ca-elm.github.io/book/#higher-order-functions-filtering-lists)
-- [More List Functions](https://ca-elm.github.io/book/#higher-order-functions-more-list-functions)
+- Review Values, Expressions, and Types
 
-Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 8 and 10-12. Submit answers <a target=_top>via Schoology</a>.
+Homework: No new homework. Catch up on old assignments and enjoy your weekend.
 
 <div class="container"><p class="progress"></p></div>
 
