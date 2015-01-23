@@ -36,6 +36,8 @@ Solutions are available [below](#solutions-elm-basics).
 
 Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 1–4, excluding 3e and 4e. Submit answers <a href=https://www.schoology.com/assignment/219060742/info target=_top>via Schoology</a>.
 
+Solutions are available [below](#solutions-higher-order-functions).
+
 # 2015-01-14: Wednesday
 
 - Review Homework
