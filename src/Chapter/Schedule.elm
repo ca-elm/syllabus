@@ -64,7 +64,7 @@ Homework: No new homework. Catch up on old assignments and enjoy your weekend.
 - Lambda notation
 - Parametric polymorphism
 
-Homework:
+Homework: (solutions are available [below](#solutions-lambda-notation))
 
 1. Write the following functions using lambda notation, and then write a type annotation for the expression:
 

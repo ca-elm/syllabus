@@ -212,5 +212,83 @@ Solutions to previous homework exercises.
   iterate n = List.foldr (>>) identity << List.repeat n
   ```
 
+# Lambda Notation
+
+1. Write the following functions using lambda notation, and then write a type annotation for the expression:
+
+  1. `square`, which takes a Float $x$ as input and returns $x^2$. For example, `square 5` would give you `25`.
+
+    ```elm
+    square : Float -> Float
+    square = \\x -> x * x
+    ```
+    ```elm
+    square = \\x -> x^2
+    ```
+
+  1. `parenthesize`, which takes a String and wraps it in parentheses. For example, `parenthesize "an aside"` would return `"(an aside)"`.
+
+    ```elm
+    parenthesize : String -> String
+    parenthesize = \\s -> "(" ++ s ++ ")"
+    ```
+
+  1. `sumSquares`, which takes two Floats $x$ and $y$ and returns the sum of their squares, i.e., $x^2 + y^2$. For example, `sumSquares 3 4` would yield `25`.
+
+    ```elm
+    sumSquares : Float -> Float -> Float
+    sumSquares = \\x -> \\y -> square x + square y
+    ```
+    ```elm
+    sumSquares = \\x -> \\y -> x * x + y * y
+    ```
+    ```elm
+    sumSquares = \\x -> \\y -> x^2 + y^2
+    ```
+    or: (hey, I didn't say how *much* you had to use lambda notation)
+    ```elm
+    sumSquares = \\x -> (+) (square x) << square
+    ```
+    ```elm
+    combine = \\f -> \\g -> \\x -> f (g x) << g
+    sumSquares = combine (+) square
+    ```
+
+1. Make a function `join` which concatenates the items in a list with commas. For example, `join ["one", "two", "three"]` would return `"one, two, three"`.
+
+  ```elm
+  join = List.foldr1 (\\item soFar -> item ++ ", " ++ soFar)
+  ```
+  or: (see if you can figure out how this one works)
+  ```elm
+  join words = List.foldr1
+    (\\item soFar -> item << (++) ", " << soFar)
+    (List.map (++) words) ""
+  ```
+
+  I actually forgot to put "and spaces" in the question, so variants like this are fine too:
+  ```elm
+  join = List.foldr1 (\\item soFar -> item ++ "," ++ soFar)
+  ```
+
+1. Write a function `repeat` which acts like `String.repeat`: it takes a number and string and repeats the string that many times. For example, `repeat 3 "a"` would return `"aaa"`. Keep in mind that `repeat 0 "a"` should return the empty string `""`.
+
+  ```elm
+  repeat n s = List.foldr (++) "" <| List.map (\\_ -> s) [1..n]
+  ```
+  ```elm
+  repeat n s = List.foldr (<|) "" <| List.map (\\_ -> (++) s) [1..n]
+  ```
+  ```elm
+  repeat n s = iterate n ((++) s) ""
+  ```
+  ```elm
+  repeat n s = List.foldr (++) "" <| List.map (always s) [1..n]
+  ```
+  ```elm
+  repeat n s = List.foldr (++) "" <| List.repeat n s
+  ```
+
+
 """
   }
