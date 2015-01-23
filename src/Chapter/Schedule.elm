@@ -76,7 +76,5 @@ Homework:
 
   <p class=hint>You might need lambda notation, `List.foldr`, `List.map`, and the `[1..n]` syntax (which creates the list `[1, 2, 3, ..., n]`).
 
-<div class="container"><p class="progress"></p></div>
-
 """
   }
