@@ -49,6 +49,8 @@ Solutions are available [below](#solutions-higher-order-functions).
 
 Homework: [Chapter 2 Exercises](https://ca-elm.github.io/book/#higher-order-functions-exercises) 3e, 4e, 5–7 (except 7c), and 9. Submit answers <a href=https://www.schoology.com/assignment/221224914/info target=_top>via Schoology</a>.
 
+Solutions are available [below](#solutions-higher-order-functions).
+
 # 2015-01-16: Friday
 
 - Review Homework

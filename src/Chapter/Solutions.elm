@@ -145,5 +145,72 @@ Solutions to previous homework exercises.
   epsilon = (>>) toString >> (|>)
   ```
 
+1. Define `range : List number -> number`, which returns the difference between the smallest and largest elements in a list.
+
+  ```elm
+  range : List number -> number
+  range xs = List.maximum xs - List.minimum xs
+  ```
+
+1. `List.head` outputs the first item of a list and `List.tail` outputs all but the first element; for example, `List.head [1, 2, 3]` is 1 and `List.tail [1, 2, 3]` is `[2, 3]`. Use these two functions to define `joinWords`, which takes a list of Strings and outputs a String formed by joining the strings together with spaces, e.g., `joinWords ["a", "few", "words"]` would be `"a few words"`.
+
+  ```elm
+  joinWords : List String -> String
+  joinWords words =
+     List.head words ++
+     List.foldr (++) "" (List.map ((++) " ") (List.tail words))
+  ```
+
+  ```elm
+  joinWords : List String -> String
+  joinWords words =
+     List.head words ++
+     List.foldr ((++) << (++) " ") "" (List.tail words)
+  ```
+
+1. Write type annotations for the following declarations:
+
+  ```elm
+  alpha : List String -> String
+  alpha = List.foldr (++) "..."
+
+  beta : List String -> List (String -> String)
+  beta = List.map (++)
+
+  gamma : List String -> List String -> List String
+  gamma = List.map2 (++)
+
+  delta : (a -> a) -> List (a -> a) -> a -> a
+  delta = List.foldr (>>)
+
+  epsilon : (number -> a) -> List a
+  epsilon = flip List.map [1, 2, 3]
+
+  zeta : List ((number -> a) -> a)
+  zeta = List.map (|>) [1, 2, 3]
+  ```
+
+1. Write a function `reasonable : List number -> List number`, which outputs the numbers in its input list that are between 1 and 100 (inclusive).
+
+1. Define `iterate : Int -> (a -> a) -> a -> a`, which takes a number and a function <var>f</var> and returns a function which repeatedly applies <var>f</var> the given number of times. For example, `iterate 3 ((++) ".") "Hello?"` would give `"...Hello?"`.
+
+  You may find it helpful to use the `always` function, which takes two inputs and always returns the first one (i.e., `always x y = x`), or the `identity` function, which returns its input unchanged (i.e., `identity x = x`).
+
+  ```elm
+  iterate n f x = List.foldr (always f) x [1..n]
+  ```
+
+  ```elm
+  iterate n f x = List.foldr identity x (List.repeat n f)
+  ```
+
+  ```elm
+  iterate n f = List.foldr (>>) identity (List.repeat n f)
+  ```
+
+  ```elm
+  iterate n = List.foldr (>>) identity << List.repeat n
+  ```
+
 """
   }
