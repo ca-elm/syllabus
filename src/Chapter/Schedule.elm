@@ -86,7 +86,7 @@ Homework: (solutions are available [below](#solutions-lambda-notation))
 - Signal combinators: `count`, `toggle`, `toggleIf`, `toggleWhen`, `until`
 - A few union types
 
-Homework: make a two-player keyboard-mashing game. The players should repeatedly press <kbd>shift</kbd> and <kbd>enter</kbd>, respectively, to advance their bar/character/whatever across the screen. The first player to reach the goal wins. The setup should look something like this:
+Homework: make a two-player keyboard-mashing game. The players should repeatedly press <kbd>shift</kbd> and <kbd>enter</kbd>, respectively, to advance their bar/character/whatever across the screen. The first player to reach the goal wins. The result should look something like this: (In this particular screenshot, red is Player 1 and blue is Player 2. Player 2 has already won, because their bar is the full width of the area.)
 
 <img src=http://i.imgur.com/5hbBDc7.png alt="screenshot of game" width=400 height=400 style="box-shadow: 0 4px 16px rgba(0,0,0,.2); display: block; margin: 0 auto 1rem;" id=mash-screenshot>
 
@@ -130,7 +130,9 @@ Finally, define `view`, which takes in the current game state and outputs a coll
 - Show a bar or other shape for each player, indicating their progress towards the goal.
 - If a player has won, you should indicate that in some way (fill the screen with that player's color, or add a label that says `Player X won!`).
 
-You can try to reproduce the view in the [screenshot](#mash-screenshot) or you can design your own visual representation of the state. Test your `view` implementation with `main = view <~ foldp update startState input`. Once it works correctly, you'll have a complete game! Expand your game with two of the ideas below, or design two of your own modifications. Submit your final game on Schoology, and tell us what cool stuff you added.
+You can try to reproduce the view in the [screenshot](#mash-screenshot) or you can design your own visual representation of the state; for now, use a fixed 400&times;400 canvas size.
+
+Test your `view` implementation with `main = view <~ foldp update startState input`. Once it works correctly, you'll have a complete game! Expand your game with two of the ideas below, or design two of your own modifications. Submit your final game on Schoology, and tell us what cool stuff you added.
 
 1. Make the bars for each player extend from the bottom edge of the screen to the top instead of expanding outward and horizontally from the center.
 1. After a player has won, let him/her press <kbd>space</kbd> to start a new game.
