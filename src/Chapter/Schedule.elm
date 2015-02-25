@@ -80,5 +80,65 @@ Homework: (solutions are available [below](#solutions-lambda-notation))
 
   <p class=hint>You might need lambda notation, `List.foldr`, `List.map`, and the `[1..n]` syntax (which creates the list `[1, 2, 3, ..., n]`).
 
+# 2015-02-25: Wednesday
+
+- Quiz corrections
+- Signal combinators: `count`, `toggle`, `toggleIf`, `toggleWhen`, `until`
+- A few union types
+
+Homework: make a two-player keyboard-mashing game. The players should repeatedly press <kbd>shift</kbd> and <kbd>enter</kbd>, respectively, to advance their bar/character/whatever across the screen. The first player to reach the goal wins. The setup should look something like this:
+
+<img src=http://i.imgur.com/5hbBDc7.png alt="screenshot of game" width=400 height=400 style="box-shadow: 0 4px 16px rgba(0,0,0,.2); display: block; margin: 0 auto 1rem;" id=mash-screenshot>
+
+First, create a signal `input` which represents the game's input. It should be a signal of values of type Input, where Input counts the number of times each player has pressed their key.
+
+```elm
+type alias Input =
+  { player1 : Int
+  , player2 : Int
+  }
+```
+
+<p class=hint>Define a function `countWhen` which takes a Signal of Bools and outputs a Signal of Ints which starts at 0 and counts the number of times the input signal has changed to True. Then use `countWhen` on the appropriate Keyboard signals. Combine the resultant signals with `<~` and a function `makeInput : Int -> Int -> Input`, which groups the two Int counts in an Input.
+
+You can test your input signal with `main = asText <~ input`. Make sure that the numbers increase independently, and only increase when you press each key; that is, holding down <kbd>enter</kbd> while pressing <kbd>shift</kbd> repeatedly should only increase the `player1` counter.
+
+Next, define the State type, which represents the current state of the game: how close each player is to the goal (as a Float between 0--just starting--and 1--finished), and which player, if any, has won (which you can represent with a union type Winner).
+
+```elm
+type alias State =
+  { winner : Winner
+  , player1 : Float
+  , player2 : Float
+  }
+
+type Winner
+  = None -- no one has won (yet)
+  | Win1 -- first player has won
+  | Win2 -- second player has won
+```
+
+Define `goal : number`, the number of key presses it takes to win the game (I used 40). Now, implement `update : Input -> State -> State`, which takes in an Input and a State and outputs a new State reflecting any changes to Input:
+
+- If no one has won, it should update the `player1` and `player2` fields of the state and check if either player has reached `goal`; if s/he has, then it should set the `winner` to the appropriate value.
+- If a player has already won, it should not update the `player1` or `player2` fields and it should not allow the winner to change.
+
+You can test your `update` implementation with `main = asText <~ foldp update startState input`. Make sure it behaves as described above.
+
+Finally, define `view`, which takes in the current game state and outputs a collage that displays the state suitably:
+
+- Show a bar or other shape for each player, indicating their progress towards the goal.
+- If a player has won, you should indicate that in some way (fill the screen with that player's color, or add a label that says `Player X won!`).
+
+You can try to reproduce the view in the [screenshot](#mash-screenshot) or you can design your own visual representation of the state. Test your `view` implementation with `main = view <~ foldp update startState input`. Once it works correctly, you'll have a complete game! Expand your game with two of the ideas below, or design two of your own modifications. Submit your final game on Schoology, and tell us what cool stuff you added.
+
+1. Make the bars for each player extend from the bottom edge of the screen to the top instead of expanding outward and horizontally from the center.
+1. After a player has won, let him/her press <kbd>space</kbd> to start a new game.
+1. Make the bars fill the entire height of the window instead of a fixed 400&times;400 area.
+1. Add a third player to the game.
+1. Mouse mashing?
+1. Look at the [Keyboard module documentation](http://package.elm-lang.org/packages/elm-lang/core/1.1.1/Keyboard) and figure out how to use letter keys for controls.
+1. Make it so players have to alternate between two buttons (e.g., <kbd>shift</kbd>/<kbd>ctrl</kbd> and <kbd>enter</kbd>/<kbd>alt</kbd>) to advance
+
 """
   }
