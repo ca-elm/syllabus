@@ -141,6 +141,7 @@ Test your `view` implementation with `main = view <~ foldp update startState inp
 1. Mouse mashing?
 1. Look at the [Keyboard module documentation](http://package.elm-lang.org/packages/elm-lang/core/1.1.1/Keyboard) and figure out how to use letter keys for controls.
 1. Make it so players have to alternate between two buttons (e.g., <kbd>shift</kbd>/<kbd>ctrl</kbd> and <kbd>enter</kbd>/<kbd>alt</kbd>) to advance
+1. Add a countdown to the beginning of the game.
 
 """
   }
